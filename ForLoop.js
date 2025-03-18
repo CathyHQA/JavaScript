@@ -4,6 +4,3 @@ for(x of animal){
     console.log(x);
 }
 
-function(x){
-    
-}
