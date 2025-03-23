@@ -9,7 +9,9 @@ function cleanStr(str){
 
 function anagram(stringA,stringB){
 
-    return cleanStr(stringA) === cleanStr(stringB);
+    //return cleanStr(stringA) === cleanStr(stringB);
+    
+    return cleanStr(stringA).includes(cleanStr(stringB));
 }
 
 console.log(anagram('RAIL! SAFETYS!', 'fairy tales'))
